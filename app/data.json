@@ -1,0 +1,47 @@
+[{
+    "id": 0,
+    "running": false,
+    "steps": [{
+        "running": false,
+        "temperature": 78.0,
+        "time": null,
+        "alarms": [0],
+        "comment-run": {
+            "init_temp": 22.0,
+            "curr_temp": 78.0,
+            "curr_time": 464,
+            "alarmed": [0]
+        }
+    }],
+    "mock_temperature": 78
+}, {
+    "id": 1,
+    "running": false,
+    "steps": [{
+        "running": false,
+        "temperature": 50.0,
+        "time": 30,
+        "alarms": [],
+        "comment-run": {
+            "init_temp": 22.0,
+            "curr_temp": 35.5,
+            "curr_time": 0
+        }
+    }, {
+        "temperature": 66.5,
+        "time": null,
+        "alarms": [50, 60, 70]
+    }, {
+        "temperature": 78,
+        "time": 10,
+        "alarms": [10]
+    }]
+}, {
+    "id": 2,
+    "running": false,
+    "steps": [{
+        "temperature": null,
+        "time": 60,
+        "alarms": [0, 45, 55, 60]
+    }]
+}]
