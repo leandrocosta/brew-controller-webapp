@@ -11,7 +11,7 @@
         };
 
         function getData() {
-            return $http.get('/app/data.json')
+            return $http.get('app/data.json')
                 .then(getDataComplete)
                 .catch(getDataFailed);
 
